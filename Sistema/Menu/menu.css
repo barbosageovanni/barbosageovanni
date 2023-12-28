@@ -1,0 +1,43 @@
+.menu-container {
+  width: 100%;
+  background-color: #f8f8f8; /* Cor de fundo do menu */
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-list li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd; /* Linha separadora dos itens */
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #333; /* Cor do texto */
+  display: block;
+}
+
+.menu-list li a.active {
+  background-color: #e7e7e7; /* Cor de fundo do item ativo */
+}
+
+.navbar {
+  background-color: #333; /* Cor de fundo para melhor contraste, ajuste conforme necessário */
+  color: white; /* Define a cor do texto para branco */
+  display: flex; /* Ativa o flexbox para alinhar os itens */
+  align-items: center; /* Centraliza os itens verticalmente */
+  justify-content: space-between; /* Espaço igual entre os itens e os lados da navbar */
+  padding: 0 10px; /* Ajuste o preenchimento conforme necessário */
+}
+
+.navbar-toggler-icon {
+  height: 50px; /* Altura do logo, ajuste conforme necessário */
+  width: auto; /* Mantém a proporção do logo */
+}

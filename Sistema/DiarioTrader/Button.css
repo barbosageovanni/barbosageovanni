@@ -1,0 +1,23 @@
+.btn-selecionar {
+    color: #fff; /* Texto branco */
+    background-color: #007bff; /* Fundo azul */
+    border-color: #007bff; /* Borda azul */
+  }
+  
+  .btn-selecionar:hover {
+    color: #fff;
+    background-color: #0069d9; /* Escurece o fundo azul ao passar o mouse */
+    border-color: #0062cc;
+  }
+
+  .btn-editar {
+    color: #fff; /* Texto branco */
+    background-color: #007bff; /* Fundo azul */
+    border-color: #007bff; /* Borda azul */
+  }
+  
+  .btn-editar:hover {
+    color: #fff;
+    background-color: #0069d9; /* Escurece o fundo azul ao passar o mouse */
+    border-color: #0062cc;
+  }

@@ -1,0 +1,29 @@
+/* Apply a global style for the app */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the buttons */
+button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}

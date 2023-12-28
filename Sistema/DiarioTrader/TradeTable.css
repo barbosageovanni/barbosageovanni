@@ -1,0 +1,78 @@
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+/* Estilos para celulares */
+@media (max-width: 600px) {
+  .table thead {
+    display: none;
+  }
+
+  .table, .table tbody, .table tr, .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .table tr {
+    margin-bottom: 15px;
+  }
+
+  .table td {
+    text-align: right;
+    padding-left: 50%;
+    text-align: right;
+    position: relative;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-right: 15px;
+    text-align: left;
+    font-weight: bold;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* Estilos específicos para tablets */
+}
+
+/* Estilos para desktops e laptops */
+@media (min-width: 1025px) {
+  /* Estilos específicos para desktops e laptops */
+}
+
+  /* TradeTable.css */
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+ }
+ 
+ .table-secondary th {
+  background-color: #05322B;
+  color: white;
+ }
+ 
+ .table-hover tbody tr:hover {
+  background-color: #b5e2f8;
+ }
+
+ .formulario-links a{
+  text-decoration: none;
+  font-size: 10pt;
+  color: #05322B;
+  
+}

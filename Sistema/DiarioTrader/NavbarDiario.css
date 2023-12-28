@@ -1,0 +1,92 @@
+/* Estilos para a Navbar */
+
+nav{
+    text-align: center;
+    padding: 10px 0;
+    background: #05322B;/* Cor de fundo da Navbar */
+    color: #FFF;
+}
+
+
+.diario-header {
+    font-size: 1.5rem; /* Tamanho do título */
+    color: #f9f9f9; /* Cor do texto */
+    margin-bottom: 20px; /* Espaço abaixo do cabeçalho */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Padding superior e inferior para o cabeçalho */
+    background-color: #05322B; /* Fundo branco para o cabeçalho */
+    border-bottom: 2px solid #dee2e6; /* Linha de separação abaixo do cabeçalho */
+  }
+
+  .header {
+    /* Título principal */
+    font-size: 1.5rem; /* Tamanho do título */
+    color: #f9f9f9; /* Cor do texto */
+    margin-left: 20%; /* Margem esquerda */
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+/*Texto HOME no formulario do navbar diariotrader */
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #04AA6D; /* Cor ao passar o mouse sobre os links */
+}
+/* Estilos para a navegação por guias (se estiver usando React Bootstrap Tabs) */
+.nav-pills .nav-link {
+    border-radius: 0.25rem;
+  }
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .diario-trader-container {
+      padding: 10px;
+    }
+  
+    .form-control {
+      padding: 0.25rem 0.5rem; /* Padding menor para dispositivos móveis */
+    }
+  
+    .btn-primary {
+      padding: 0.375rem 0.75rem; /* Padding padrão para botões em dispositivos móveis */
+    }
+  }
+
+  /* Estilos para o cabeçalho */
+.header-text.center.me-auto {
+    text-align: left; /* Centraliza o texto */
+    margin: auto; /* Centraliza o elemento */
+    padding: 2px 0; /* Espaçamento acima e abaixo do cabeçalho */
+}
+
+.sub-title-text-center {
+    font-size: 18px; /* Tamanho da fonte para o subtítulo */
+    color: #333; /* Cor do texto */
+    margin-bottom: 0px; /* Espaço abaixo do subtítulo */
+}
+
+.home-text-center {
+    font-size: 18px; /* Tamanho da fonte para o texto */
+    color: #666; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Espaço abaixo do texto */
+}
+
+/* Adicione mais estilos conforme necessário */
+
+  
